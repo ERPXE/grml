@@ -1,0 +1,8 @@
+LABEL GRML64
+MENU LABEL ^GRML x64 Full
+KERNEL er/plugins/grml/x86_64/vmlinuz
+INITRD er/plugins/grml/x86_64/initrd.img
+APPEND root=/dev/nfs rw nfsroot=10.0.0.1:/tftpboot/er/shares/grml/x86_64 dhcp noprompt noeject vga=791 boot=live bootid=grml64201105 startx
+TEXT HELP
+				GRML x64 Full.
+ENDTEXT

@@ -1,0 +1,14 @@
+MENU BEGIN GRML
+MENU LABEL ^GRML 2011.12
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/grml/grml.png
+
+MENU INCLUDE er/plugins/grml/i386/grmlmain.menu
+MENU INCLUDE er/plugins/grml/x86_64/grmlmain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

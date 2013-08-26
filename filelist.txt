@@ -1,0 +1,16 @@
+.:
+filelist.txt
+grml.menu
+grml.png
+i386
+x86_64
+
+./i386:
+grmlmain.menu
+initrd.img
+vmlinuz
+
+./x86_64:
+grmlmain.menu
+initrd.img
+vmlinuz
